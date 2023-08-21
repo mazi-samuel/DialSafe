@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS source file -->
+    <link rel="stylesheet" href="/monitoring.css">
+
+    <!-- REMIXICONS -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    
+     <!-- Google fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&display=swap" rel="stylesheet">
+ 
+     <!-- Monserrat -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+    <!-- Google icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <!-- Animate on Scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Bootstrap CDN link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>24/7 Monitoring and Control Room</title>
+</head>
+<body>
+
+   
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark position-sticky top-0" style="z-index: 1;">
+        <div class="container-fluid">
+  
+          <a class="navbar-brand" href="#">
+            <img src="./img/DIAL SAFE LOGO-02.png" alt="logo" style="height: 100px; width: 98px;">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+           
+              <li class="nav-item ms-sm-5">
+                <a class="nav-link active" aria-current="page" href="#">About Us</a>
+              </li>
+
+              <li class="nav-item ms-sm-5">
+                <a class="nav-link active" href="#services">Services</a>
+              </li>
+
+              <li class="nav-item dropdown ms-sm-5">
+                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Industries
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Primary Sector</a></li>
+                  <li><a class="dropdown-item" href="#">Law Enforcement Agency</a></li>
+                  <li><a class="dropdown-item" href="#">Mining Oil & Gas</a></li>
+                  <li><a class="dropdown-item" href="#">Construction & Engineering</a></li>
+                  <li><a class="dropdown-item" href="#">Manufacturing</a></li>
+                  <li><a class="dropdown-item" href="#">Utilities</a></li>
+                  <li><a class="dropdown-item" href="#" style="color: blue;">View all Industries</a></li>
+                </ul>
+              </li>
+
+              
+              <li class="nav-item dropdown ms-sm-5">
+                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Solutions
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Enterprise Safety Platform</a></li>
+                  <li><a class="dropdown-item" href="#">Personal App Safety</a></li>
+                  <li><a class="dropdown-item" href="#">Journey Management</a></li>
+                  <li><a class="dropdown-item" href="#">Dial 24/7 Risk Assessment</a></li>
+                  <li><a class="dropdown-item" href="#">24/7 Monitoring</a></li>
+                  <li><a class="dropdown-item" href="#">Lone Worker</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item fw-bold" href="#" style="color: red;">Products</a></li>
+                  <li><a class="dropdown-item" href="#" style="color: blue;">DIALSAFE</a></li>
+                  <li><a class="dropdown-item" href="#" style="color: blue;">I-Secure</a></li>
+                  <li><a class="dropdown-item" href="#" style="color: blue;">I-Dial</a></li>
+                  <li><a class="dropdown-item" href="#" style="color: blue;">I-Track</a></li>
+                  <li><a class="dropdown-item" href="#" style="color: blue;">Dial-ThreatHunter</a></li>
+                  <li><a class="dropdown-item" href="#" style="color: blue;">Dial-ThreatHunter</a></li>
+                  <li><a class="dropdown-item" href="#" style="color: blue;">View All Products</a></li>
+
+                </ul>
+              </li>
+
+              <li class="nav-item ms-sm-5">
+                <a class="nav-link active" href="#">Contact</a>
+              </li>
+              
+
+            </ul>
+
+            <div class="ms-auto">
+                
+                <button class="req-btn px-4 py-2 me-3" style="background-color: black; border: 1px solid lightgray;
+                border-top-left-radius: 9px;
+                border-top-right-radius: 9px;
+                border-bottom-left-radius: 9px;">
+                    <a href="#" >Request Demo</a>
+                </button>
+             
+                <button class="req-btn px-4 py-2 me-5" style="background-color: black; border: 1px solid lightgray;
+                border-top-left-radius: 9px;
+                border-top-right-radius: 9px;
+                border-bottom-left-radius: 9px;">
+                    <a href="#" >Log In</a>
+                </button>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+
+    <!--Header -->
+    <section class="header position-relative">
+
+            <div class="image-container">
+                <img src="/img/mon-head.jpg" alt="" class="img-fluid">
+            </div>
+    
+           <div class="container h-100 px-lg-5 ms-sm-5 position-absolute top-0">
+
+            <div class="row">
+
+                <div class="col-lg-7 enterprise h-100 d-flex align-items-center p-4">
+    
+                    <div>
+    
+                        <h1>
+                            24/7  Monitoring and Control Room Incident Response
+                        </h1>
+    
+                        <div class="pt-sm-3">
+                            <p>
+                                <i class="ri-arrow-right-double-fill"></i> Introducing DIAL 24/7's Intelligence-Infused Control Center
+        
+                            </p>
+                        </div>
+
+    
+                        <div class="pt-sm-3">
+                            <p>
+                                <i class="ri-arrow-right-double-fill"></i> Responsive Expertise for Time-Bound Challenges        
+                            </p>
+                        </div>
+
+                        <div class="pt-sm-3">
+                            <p>
+                                <i class="ri-arrow-right-double-fill"></i> Unveiling Unprecedented Precision                            </p>
+                        </div>
+
+                        
+                        <div class="pt-sm-3">
+                            <p>
+                                DIAL 24/7 Emergency Response Centre an embodiment of proactive emergency plans, 
+                                deep learning IoT surveillance, and predictive AI for swift and precise analyses.
+
+        
+                            </p>
+                        </div>
+    
+                        <button class="req-btn px-5 py-3 mt-3" style="background-color: black; border: 1px solid lightgray;
+                            border-top-left-radius: 9px;
+                            border-top-right-radius: 15px;
+                            border-bottom-left-radius: 15px;">
+                                <a href="#" >Request a Demo</a>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+    
+           </div>
+    
+    </section>
+    
+
+
+    <!-- Parallax-effect -->
+    <section class="parallax">
+        <div class="parallax-effect"></div>
+    </section>
+
+    <!-- Unveiling Emergency Control -->
+    <section class="unveiling p-4" style="background-color: black;">
+        <div class="container px-4 py-5 shadow-lg" style="background-color: rgb(238, 235, 235); border-radius: 30px;" data-aos="zoom-in">
+            <div class="row pb-5 ">
+                <div class="col-lg-12 d-flex align-items-center">
+                   
+                    <div>
+                        <h3 class="pb-4" style="line-height: 40px;">
+                            Responsive Emergency Control Center</span>
+                        </h3>
+
+                        <p>
+                            Our Emergency Response Centre (ERC) is the heartbeat of swift actions. 
+                            A dedicated team stands vigilant 24/7, ensuring the utmost safety for your workforce.
+                            These seasoned professionals meticulously triage each emergency, orchestrating responses
+                            that can be the difference between crisis and control.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Localized Expertise: A Swift Lifeline -->
+    <section class="localize p-4" style="background-color: black;">
+        <div class="container  px-4 pb-5">
+
+            <div class="row">
+                <div class="col-lg-12 d-flex ">
+                    <h3 class="pb-4  display-6 text-white" data-aos="fade-right" style="line-height: 40px;">
+                        Localized Expertise: A Swift Lifeline
+                    </h3>
+                </div>
+            </div>
+
+            <div class="row text-white">
+                <div class="col-lg-8 d-flex justify-content-center">
+                    <p  data-aos="fade-left">
+                        When crisis emerges, proximity to aid is paramount. Our Emergency Response Centre localized expertise
+                        ensures the right help arrives promptly. Whether it's a local emergency service or
+                        a specialized unit, the Emergency Response Centre dispatches the exact support needed.
+                    </p>
+  
+                </div>
+                
+              
+                
+            </div>
+
+            <div class="row mt-4">
+
+                <div class="col-lg-6" >
+                    <h3 class="ps-2" style="color: blue;">
+                        In-house
+                    </h3>
+
+                    <p style="color: white !important;">
+                        Monitoring your employees in house via the Dial 24/7 Hub is easy, 
+                        low cost and eliminates the need for paper trails and routine check-in calls.
+                        The flexibility of the Hub allows you to decide how you manage your employees and alert responses.
+
+                    </p>
+                </div>
+
+                <div class="col-lg-6">
+                    <h3 class="ps-2" style="color: red;">
+                        External
+                    </h3>
+
+                    <p style="color: white;">
+                        We also work alongside professional monitoring partners to offer round the clock monitoring and 
+                        response services for lone worker emergencies. Available 24/7, external monitoring is a great solution
+                        for those with minimal in-house resources,
+                        larger organisations or those who operate out of hours such as through the night.
+
+                    </p>
+                </div>
+
+                <button class="req-btn px-4 py-3 mt-5" style="background-color: black; border: 1px solid lightgray;
+                    border-top-left-radius: 9px;
+                    border-top-right-radius: 9px;
+                    border-bottom-left-radius: 9px;">
+                        <a href="#" >Talk to our Expert</a>
+                </button>
+
+
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+     <!-- Dial 24/7 Emergency Response Functionality Orchestrating Safety -->
+     <section class="dial" style="background-color: black;">
+        <div class="container bg-white">
+            <div class="row">
+
+                <div class="col-lg-12 p-5 shadow">
+
+                    <div class="five-pillar">
+                        <h3 class="fw-bold display-6 py-3">
+                            Dial 24/7 Emergency Response Functionality To Safety
+
+                        </h3>
+
+                        <div style="line-height: 30px;" class="fw-bold">
+
+                            <p class="pt-3 d-flex align-items-center">
+                                <i class="ri-checkbox-circle-line fs-3 me-2"></i> Coordinating diverse organizations, from contractors to aid groups.
+                            </p>
+
+                            <p class="pt-2d-flex align-items-center">
+                                <i class="ri-checkbox-circle-line fs-3 me-2"></i> Gathering and disseminating vital information
+                            </p>
+
+                            <p class="pt-2 d-flex align-items-center">
+                                <i class="ri-checkbox-circle-line fs-3 me-2"></i> Managing emergency operations.
+                            </p>
+                       </div>
+                    
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+                
+                <div class="col-lg-12 p-5"data-aos="fade-up">
+
+                    <div class="five-pillar">
+
+                        <h3 class="fw-bold display-6">
+                            Five Pillars of Dial 24/7 Emergency Functionality
+
+                        </h3>
+
+                        <div style="line-height: 40px;" class="fw-bold">
+
+                            <p class="pt-4">
+                                <i class="ri-checkbox-circle-line fs-3 me-2"></i> Planning: Assembling, evaluating, and sharing information for coordinated Incident Action Plans.
+                            </p>
+
+                            <p class="pt-2 d-flex align-items-center">
+                                <i class="ri-checkbox-circle-line fs-3 me-2"></i> Logistics: Acquiring resources like personnel and equipment.
+                            </p>
+
+                            <p class="pt-2 d-flex align-items-center">
+                                <i class="ri-checkbox-circle-line fs-3 me-2"></i> Operations: Coordinating activities that align with Incident Action Plans.
+                            </p>
+
+                            <p class="pt-2 d-flex align-items-center">
+                                <i class="ri-checkbox-circle-line fs-3 me-2"></i> Command: Overseeing the entire response operation.
+                            </p>
+
+                            <p class="pt-2">
+                                <i class="ri-checkbox-circle-line fs-3 me-2"></i> Finance / Administration: Tracking costs, payments, and forecasts related to incidents.
+                            </p>
+                       </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tailored Escalation: Your Custom Response Path -->
+    <section class="pb-5" style="background-color: black;">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 p-0" style="background-color: black;">
+                    <img src="/img/customer.jpg" alt="" class="img-fluid" style="opacity: 0.9;">
+                </div>
+
+                <div class="col-lg-6 d-flex align-items-center p-5 shadow-lg">
+                   <div data-aos="fade-left">
+                        <h3 class="fw-bold display-6 text-white" style="text-align: right;">
+                            Tailored Escalation: Your Custom Response Path
+                        </h3>
+
+                        <p class="pt-4 text-white fw-bold" style="text-align: justify; line-height: 35px;">
+                            One size doesn't fit all, especially in emergencies. Our Emergency Response Centre understands this,
+                            offering customizable escalation paths.
+                            Match your unique requirements, ensuring responses 
+                             are tailored to your organization's structure and needs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dial 24/7 Edge / Join Vanguard-->
+    <section class="p-4 dial-group">
+
+        <div class="container bg-body-tertiary shadow-sm">
+
+            <div class="row">
+
+                <div class="col-lg-12 py-4 px-5"  data-aos="fade-right">
+                    <h3 class="fw-bold" style="font-weight: 500; line-height: 30px; text-align: center;">
+                        The Dial 24/7 Edge
+                    </h3>
+                  
+
+                    <p class="py-3 fw-bold" style="text-align: center; line-height: 30px;">
+                        Our Emergency Response Centre isn't just about reacting—it's about preempting and controlling. Here's what sets us apart:
+
+                    </p>
+
+                   
+
+                    <div class="row shadow bg-white">
+
+                        <div class="col-lg-6 p-4">
+
+                            <div style="line-height: 30px;" class="pb-4">
+
+                                <p class="pt-3">
+                                    <i class="ri-checkbox-circle-line fs-3 me-2"></i> 
+                                    Deep Learning IoT Surveillance: Our advanced systems integrate IoT surveillance with 
+                                    deep learning capabilities, ensuring real-time monitoring and predictive insights.
+                                </p>
+        
+                                <p class="">
+                                    <i class="ri-checkbox-circle-line fs-3 me-2"></i>
+                                    Adaptive AI: Our AI adapts to dynamic situations, 
+                                    offering quick analysis and aiding in decisions.
+                                </p>        
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-6 p-4">
+                            <div style="line-height: 30px;">
+                                <p class="pt-3">
+                                    <i class="ri-checkbox-circle-line fs-3 me-2"></i>
+                                    24/7 Monitoring: A dedicated team stands vigilant round the clock, 
+                                    guaranteeing immediate responses.
+                                </p>
+        
+                                <p class="pt-3">
+                                    <i class="ri-checkbox-circle-line fs-3 me-2"></i>
+                                    Control Room Expertise: Expert professionals handle incidents swiftly,
+                                    ensuring the right actions are taken in critical moments.
+                                </p>       
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-12 py-4 px-5 border-start"  data-aos="fade-up">
+                    <h3  class="display-6 fw-bold" style="font-weight: 500; text-align: center;">
+                        Join the Vanguard of Safety
+                    </h3>
+
+                    <p class="pt-3" style="line-height: 40px; text-align: center;">
+                        In a world where emergencies are unpredictable, DIAL 24/7's Emergency Response Centre emerges
+                        as a fortress of preparedness. It's not just about reacting—it's about orchestrating responses
+                        that avert disasters. Step into a future where safety is no longer chance—it's a choice.
+                    </p>
+
+                    <p style="line-height: 40px; text-align: center;">
+                        For a guided journey into this revolution, for enhanced safety, engage with DIAL 24/7's Emergency Response Centre.
+                        From enterprise leaders to intelligence professionals, it's an essential ally in securing lives and assets.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="row pb-4">
+                <div class="col-lg-12 d-flex justify-content-center">
+
+                    <button class="req-btn px-5 py-3 mt-3" style="background-color: black; border: 1px solid lightgray;
+                        border-top-left-radius: 9px;
+                        border-top-right-radius: 15px;
+                        border-bottom-left-radius: 15px;">
+                            <a href="#" >Talk to Our Expert</a>
+                    </button>
+
+                </div>
+    
+            </div>
+         
+        </div>
+    </section>
+    
+   
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="container p-5">
+
+
+            <div class="row">
+
+                <div class="col-lg-3 p-0">
+                    <a href="#"><img src="/img/DIAL SAFE LOGO-02.png" alt="" class="img-fluid" style="height: 120px; width: 120px;"></a>
+                </div>
+
+                
+                <div class="col-md-3 mt-4">
+                    <h5 class="pt-3 fw-bold" style="color: rgb(210, 210, 210);">Company</h5>
+                    <a href="#">About</a> <br>
+                    <a href="#">Careers at Dial 24/7</a> <br>
+                    <a href="#">Contact Us</a> <br>
+                    <a href="#">Privacy & Security</a> <br>
+                </div>
+             
+                <div class="col-md-3 mt-4">
+                    <h5 class="pt-3 fw-bold" style="color:  rgb(210, 210, 210);">Product</h5>
+                    <a href="#">About</a> <br>
+                    <a href="#">Careers at Dial 24/7</a> <br>
+                    <a href="#">Contact Us</a> <br>
+                    <a href="#">Privacy & Security</a> <br>
+                </div>
+             
+                <div class="col-md-3 mt-4">
+                    <h5 class="pt-3 fw-bold" style="color:  rgb(210, 210, 210);">Resources</h5>
+                    <a href="#">About</a> <br>
+                    <a href="#">Careers at Dial 24/7</a> <br>
+                    <a href="#">Contact Us</a> <br>
+                    <a href="#">Privacy & Security</a> <br>
+                </div>
+             
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <section class="socials border-top p-4" style="background-color: black;">
+        <div class="container">
+            <div class="row ">
+
+                <div class="col-lg-12 p-0 d-flex justify-content-center">
+                    
+                    <div>
+                        <a href=""><i class="ri-linkedin-box-fill fs-3 text-white" id="linkedin"></i></a>
+                        <a href=""><i class="ri-instagram-fill fs-3 text-white ms-3" id="instagram"></i></a>
+                        <a href=""><i class="ri-twitter-x-line fs-3 text-white ms-3" id="twitter"></i></a>
+                    </div>
+                   
+                </div>
+               
+            </div>
+
+        </div>
+    </section>
+
+
+           
+
+
+
+    
+
+    
+   
+
+<!-- Bootsrap Js-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+<!-- Main JS script -->
+<script src="main.js"></script>
+
+
+<!-- AOS script -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true,
+  });
+</script>
+</body>
+</html>

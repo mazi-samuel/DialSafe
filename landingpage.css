@@ -1,0 +1,683 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    overflow-x: hidden;
+ 
+   
+}
+
+.navbar {
+    background-color: black !important;
+    border-bottom: 1px solid rgb(62, 62, 62);
+
+}
+
+.nav-link:hover {
+    color: red rgb(79, 79, 79) !important;
+    border-bottom: 1px solid lightgray;
+    transition: .7s;
+}
+
+.req-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.req-btn:hover {
+    background-color: rgb(92, 92, 92) !important;
+    color: black !important;
+    transform: translateY(-0.4rem);
+    transition: .4s;
+}
+
+/* Header Style Begins */
+
+.header {
+    background-color: black;
+    color: white;
+}
+
+.header span {
+    line-height: 80px;
+}
+
+.header p {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    color: lightgrey;
+}
+
+#predict {
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-size: 100px;
+}
+
+#detect {
+    font-size: 78px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+#and {
+    font-size: 40px;
+}
+
+#address {
+    font-size: 69px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+#threat {
+    color: rgb(209, 0, 0);
+    font-size: 68px;
+    font-weight: bold;
+}
+
+/* Header Style Ends */
+
+
+/* Statement Style Begins */
+.statement p {
+    font-size: 25px;
+    text-align: center;
+    line-height: 45px;
+    font-family: 'Montserrat', sans-serif;
+}
+/* Statement Style Ends */
+
+
+/* Customer success Style starts */
+.customer-success h1 {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    
+  
+}
+
+.customer-p {
+    font-family: 'Montserrat', sans-serif;
+    color: lightgray;
+
+   
+}
+
+/* Customer Success style ends*/
+
+
+/* Clientele Style Starts Here */
+.clientele h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    display: inline;
+}
+
+.clientele p {
+    text-align: justify;
+    font-size: 20px;
+    line-height: 40px;
+}
+/* Clientele Style Ends Here */
+
+
+
+/* Inudtry Success */
+
+
+.hero {
+   width: 100%;
+   height: 90vh;
+   position: relative; 
+   color: white;
+
+}
+
+.hero h1{
+    text-align: center;
+    padding-top: 80px;
+    font-size: 40px;
+    color: #fff;
+}
+
+.slide-row {
+    display:  flex;
+    width: 3200px;
+    transition: 0.5s;
+}
+
+.slide-col {
+    width: 800px;
+    height: 400px;
+    position: relative;
+}
+
+.user-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+
+.user-img img {
+    height: 100%;
+    border-radius: 10px;
+}
+
+.user-text {
+    background: #2d3a59;
+    width: 520px;
+    height: 270px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 10px;
+    color: #d3d4d6;
+    padding: 45px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.user-text p {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.user-text h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.slide-container {
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.indicator {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -50px;
+}
+
+.ind {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin: 4px;
+    border-radius: 15px;
+    background: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.indicator .active {
+    width: 45px;
+}
+
+.testimonial {
+    height:100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Industry Success */
+
+
+
+
+/* PARALLAX */
+.parallax {
+    height: 45vh;
+    background-color: black;
+    position: relative;
+}
+
+.parallax-effect {
+    height: 45vh;
+    background-image: url('/img/african-man-talking-phone-reading-credit-card-number-while-sitting-office.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+/* PARALLAX */
+
+
+/* Our Services Starts Style Here */
+.our-srv h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 39px;
+}
+
+.card {
+    border-top-right-radius: 10px !important;
+    border-bottom-left-radius: 25px !important;
+    border-top-left-radius: 19px !important;
+    background-color: black !important;
+}
+
+.card p {
+    color: ghostwhite;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    display: flex !important;
+    align-items: center !important;
+    height: 100%;
+}
+
+.card:hover {
+    transform: translateY(-0.4rem);
+    transition: .4s;
+  }
+  
+
+.let-help {
+    text-align: center;
+}
+
+.view-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.view-btn:hover {
+    background-color: gray !important;
+    transition: 0.5s;
+}
+
+/* Our Services Starts Ends Here */
+
+/* How DialSafe Works Style */
+.how-work h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: lightgray;
+    line-height: 50px;
+    font-weight: bolder !important;
+}
+
+
+
+.how-work h1 {
+    font-family: 'Black Han Sans', sans-serif;
+    text-align: right;
+    color: rgb(254, 254, 254);
+}
+
+.how-work p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 35px;
+    text-align: right;
+    color: rgb(221, 221, 221);
+}
+
+
+.more-kit {
+    text-decoration: none;
+    color: white !important;
+    font-weight: 400;
+}
+
+.more-kit:hover{
+    color: rgb(232, 10, 10) !important;
+    border-bottom: 1px solid black;
+    
+}
+
+/* How Dial Safe works style ends */
+
+
+
+
+
+/* Survey Form Style Starts */
+:root{
+    --primary: #6b59d3;
+    --secondary : #bfc0c0;
+    --white: #fff;
+    --text-colr: #25273d;
+    --next-btn-hover: #8577d2;
+    --back-btn-hover: #8b8c8c;
+}   
+
+.risk-survey {
+    background-color: black;
+}
+
+.risk-survey h3 {
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.wrapper{
+    width: 750px;
+    max-width: 100%;
+    background: var(--white);
+    margin: 20px auto 0;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.wrapper .survey-header {
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper .survey-header ul {
+    display: flex;
+}
+
+.wrapper .survey-header ul li{
+    position: relative;
+    margin-right: 50px;
+}
+
+.wrapper .survey-header ul li:last-child {
+   margin-right: 0;    
+}
+
+.wrapper .survey-header ul li:before {
+    content: "";
+    position: absolute;   
+    top: 40%;
+    transform: translateY(-50%);
+    left: 55px;
+    width: 100%;
+    height: 2px;
+    background: var(--secondary);
+ }
+
+ .wrapper .survey-header ul li:last-child:before {
+    display: none;
+ }
+
+ .wrapper .survey-header ul li div {
+    padding: 5px;
+    border-radius: 50%;
+ }
+
+ .wrapper .survey-header ul li p {
+    width: 50px;
+    height: 50px;
+    background: var(--secondary);
+    color: var(--white);
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+ }
+
+ .wrapper .survey-header ul li.active:before,
+ .wrapper .survey-header ul li.active p{
+    background: var(--primary);
+ }
+
+ .wrapper .form-wrap {
+    margin-bottom: 35px;
+
+ }
+
+ .wrapper .form-wrap h2 {
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    
+ }
+
+ .wrapper .form-wrap .input-wrap {
+    width: 350px;
+    max-width: 100%;
+    margin: 0 auto 20px;
+ }
+
+ .wrapper .form-wrap .input-wrap:last-child {
+    margin-bottom: 0;
+ }
+
+.wrapper .form-wrap .input-wrap label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+ .wrapper .form-wrap .input-wrap input {
+    border: 2px solid var(--secondary);
+    border-radius: 3px;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    transition: 0.5s ease;
+
+}
+
+.wrapper .form-wrap .input-wrap input:focus {
+    border-color: var(--primary);
+}
+
+.wrapper .btns-wrap {
+    width: 350px;
+    max-width: 100%;
+    margin: 0 auto ;
+}
+
+.wrapper .btns-wrap .common-btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper .btns-wrap .common-btns.form_1_btns {
+    justify-content: flex-end;
+}
+
+ .wrapper .btns-wrap .common-btns button {
+    border: 0;
+    padding: 12px 15px;
+    background: var(--primary);
+    color: var(--white);
+    width: 135px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    border-radius: 3px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.wrapper .btns-wrap .common-btns button.btn_back {
+    background: var(--secondary);
+}
+
+.wrapper .btns-wrap .common-btns button.btn_next .icon {
+    display: flex;
+    margin-left: 10px;
+}
+
+.wrapper .btns-wrap .common-btns button.btn_back .icon {
+    display: flex;
+    margin-right: 10px;
+}
+
+.wrapper .btns-wrap .common-btns button.btn_next:hover,
+.wrapper .btns-wrap .common-btns button.btn_done:hover {
+     background-color: var(--next-btn-hover);
+     color: black;
+}
+
+.wrapper .btns-wrap .common-btns button.btn_back:hover {
+    background: var(--back-btn-hover);
+}
+
+.modal_wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+}
+
+.modal_wrapper .shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: 0.2s ease;
+}
+
+.modal_wrapper .success_wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -800px);
+    background-color: var(--white);
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    transition: 0.5 ease;
+
+}
+
+.modal_wrapper .success_wrap .modal_icon {
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    background: var(--primary);
+    color: var(--white);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.modal_wrapper.active {
+    visibility: visible;
+}
+
+.modal_wrapper.active .shadow {
+    opacity: 1;
+}
+
+
+.modal_wrapper.active .success_wrap{
+    transform: translate(-50%, -50%);
+}
+
+/* Survey Form Style Ends */
+
+.contact h2 {
+    font-size: 36px;
+    font-family: 'Black Han Sans', sans-serif;
+    font-weight: bold;
+    color: red;
+
+}
+
+.contact h3 {
+    font-family: 'Black Han Sans', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+
+.footer {
+    background-color: black;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+}
+
+.footer a:hover{
+    color: red !important;
+}
+
+.socials a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.socials #linkedin:hover {
+    color: #0077b5 !important;
+}
+
+.socials #instagram:hover {
+    color: #E1306C !important;
+}
+
+.socials #twitter:hover {
+    color: grey !important;
+}
+
+/* MOBILE DEVICES */
+@media only screen and (max-width: 600px) {
+    
+    .header p {
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 2px;
+        color: lightgrey;
+        font-size: 13px;
+    }
+
+    #and{
+        margin-left: 10px;
+    }
+
+    #predict, #detect, #address, #threat{
+        font-size: 40px;
+        line-height: 40px !important;
+    }
+
+    #video {
+        width: 400px !important;
+        height: 300px !important;
+    }
+
+    .customer-success h1 {
+        font-size: 30px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        background-color: rgb(23, 6, 6);
+      
+    }
+
+    
+.testimonial {
+    height:100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+       
+    
+}
+
+@media only screen and (min-width: 768px) {
+
+
+}

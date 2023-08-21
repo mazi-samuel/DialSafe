@@ -1,0 +1,233 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+   
+}
+
+.navbar {
+    background-color: black !important;
+    border-bottom: 1px solid rgb(62, 62, 62);
+
+}
+
+.nav-link:hover {
+    color: red rgb(79, 79, 79) !important;
+    border-bottom: 1px solid lightgray;
+    transition: .7s;
+}
+
+
+
+.req-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.req-btn:hover {
+    background-color: rgb(92, 92, 92) !important;
+    color: black !important;
+    transform: translateY(-0.4rem);
+    transition: .4s;
+}
+
+/* Header Style  */
+
+.header {
+    height: 90vh;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+}
+
+
+.header img {
+    height: 90vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    opacity: 0.2;
+    
+}
+
+.enterprise {
+    position: absolute;
+    top: 0;
+}
+
+.header h1 {
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 60px;
+}
+
+.header p {
+    color: ghostwhite;
+    font-size: 19px;
+    line-height: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Headter Style Ends */
+
+.parallax {
+    height: 45vh;
+    background-color: black;
+    position: relative;
+}
+
+.parallax-effect {
+    height: 45vh;
+    background-image: url('/img/monitor-caller.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+
+.unveiling p {
+    font-size: 23px;
+    line-height: 40px;
+}
+
+.localize p {
+    font-size: 23px;
+    line-height: 40px;
+}
+
+.unveiling h3 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.localize h3 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* IN HOUSE/EXTERNAL */
+.in-house h3 {
+    font-size: 30px;
+    border-left: 9px solid red;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.in-house p {
+    font-size: 20px;
+    text-align: justify; 
+    line-height: 40px;
+}
+
+/*  */
+
+
+.dial p {
+    font-size: 17px;
+}
+
+.dial h3 {
+    line-height: 40px;
+}
+
+.five-pillar i {
+    color: red;
+}
+
+.five-pillar h3 {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+
+.dial-group h3 {
+    color: black;
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.dial-group i {
+    color: blue;
+}
+
+
+
+
+
+.footer {
+    background-color: black;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+}
+
+
+
+
+.socials a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.socials #linkedin:hover {
+    color: #0077b5 !important;
+}
+
+.socials #instagram:hover {
+    color: #E1306C !important;
+}
+
+.socials #twitter:hover {
+    color: grey !important;
+}
+
+@media only screen and (max-width: 600px) {
+   
+    .monitoring-header {
+        height: 80vh;
+        background-color: black;
+        position: relative;
+    }
+    
+    .monitoring-header img {
+        height: 80vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        opacity: 0.6;
+        
+    }
+
+
+    .monitoring-text  h1, span {
+        font-size: 30px !important;
+       text-align: left;
+       line-height: 40px !important;
+    }
+
+    .monitoring-text  p {
+        font-size: 15px !important;
+        line-height: 20px !important;
+    }
+
+
+
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+
+   
+}

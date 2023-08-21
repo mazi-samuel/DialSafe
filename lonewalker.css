@@ -1,0 +1,291 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.navbar {
+    background-color: black !important;
+    border-bottom: 1px solid rgb(62, 62, 62);
+
+}
+
+.nav-link:hover {
+    color: red rgb(79, 79, 79) !important;
+    border-bottom: 1px solid lightgray;
+    transition: .7s;
+}
+
+
+.req-btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.req-btn:hover {
+    background-color: rgb(92, 92, 92) !important;
+    color: black !important;
+    transform: translateY(-0.4rem);
+    transition: .4s;
+}
+
+
+/* Header Style  */
+.header {
+    height: 90vh;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+}
+
+.header img {
+    height: 90vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    opacity: 0.3;
+    
+}
+
+.enterprise {
+    position: absolute;
+    top: 0;
+}
+
+
+.header h1 {
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 60px;
+}
+
+.header p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+/* Headter Style Ends */
+
+ .help p {
+    font-size: 25px;
+    text-align: center;
+ }
+/* Help */
+
+
+/* App feature */
+.app-feature h2 {
+    color: white;
+}
+
+.app-feature ul {
+    list-style-type: none;
+
+}
+
+.app-feature ul  li{
+    border-bottom: 2px solid black;
+    background-color: white;
+}
+
+/* App feature */
+
+/* IN HOUSE/EXTERNAL */
+.in-house h3 {
+    font-size: 30px;
+    border-left: 9px solid red;
+
+}
+
+.in-house p {
+    font-size: 20px;
+    text-align: justify; 
+    line-height: 40px;
+}
+
+/*  */
+
+
+/* PARALLAX */
+.parallax {
+    height: 45vh;
+    background-color: rgb(4, 2, 29);
+    position: relative;
+}
+
+.parallax-effect {
+    height: 45vh;
+    background-image: url('/img/A1-two.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+/* PARALLAX */
+
+
+/* Ai */
+
+
+.ai h2 {
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: bold;
+
+}
+
+.ai h4 {
+    font-size: 30px;
+    color: rgb(2, 14, 52);
+
+
+}
+
+.ai p {
+   font-size: 20px;
+   text-align: justify; 
+   line-height: 40px;
+  
+}
+
+/* Why choose dial 24/7 */
+
+.why h3{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.why ul {
+    list-style-type: none;
+}
+
+.why i {
+    color: orange;
+}
+
+.why b, li {
+    font-size: 19px;
+    line-height: 30px;
+
+}
+
+
+/* Why choose dial 24/7  Ends*/
+
+
+.parallax {
+    height: 45vh;
+    background-color: black;
+    position: relative;
+}
+
+.parallax-effect {
+    height: 45vh;
+    background-image: url('/img/wearjpg.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+
+
+/* App Feaures */
+.app-feature i {
+    color: red;
+}
+/* App Feaures */
+
+
+/* Wearable */
+.wearable h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.wearable h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    color:white;
+    font-weight: bold;
+}
+
+.wear-text {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 40px;
+    text-align: justify;
+    font-size: 18px;
+}
+/* Wearable */
+
+
+.app-feature-2 ul {
+    list-style-type: none;
+}
+
+
+.app-feature-2 p {
+    font-size: 17px !important;
+    text-align: justify;
+}
+
+.app-feature-2 i {
+    color: rgb(255, 208, 0);
+}
+
+
+
+
+
+
+
+/* Footer */
+.footer {
+    background-color: black;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+}
+
+.footer a:hover{
+    color: red !important;
+}
+
+/* Footer */
+
+
+
+.socials a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.socials #linkedin:hover {
+    color: #0077b5 !important;
+}
+
+.socials #instagram:hover {
+    color: #E1306C !important;
+}
+
+.socials #twitter:hover {
+    color: grey !important;
+}
